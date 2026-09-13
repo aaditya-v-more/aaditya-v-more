@@ -20,38 +20,30 @@ I'm a **software engineer at Dell Technologies**, based in Bengaluru. Outside wo
 ## Selected work
 
 <table>
-<tr>
-<td width="50%" valign="top">
+<tr><td>
 <h3><a href="https://github.com/aaditya-v-more/claude-graft">Claude Graft ↗</a></h3>
-<p>Several Claude Desktop accounts. One Mac.</p>
-<p>Separate profiles, shared Claude Code history, and live usage in your menu bar.</p>
+<p>Run several Claude Desktop accounts on one Mac, with separate profiles, shared Claude Code history and live usage indicators.</p>
 <p><sub>SWIFT · SWIFTUI · MACOS</sub></p>
 <p><a href="https://graft.aadityamore.com/">Website & installation</a> · <a href="https://github.com/aaditya-v-more/claude-graft">Source</a></p>
-</td>
-<td width="50%" valign="top">
+</td></tr>
+<tr><td>
 <h3><a href="https://github.com/aaditya-v-more/claude-ollama">Claude × Ollama ↗</a></h3>
-<p>Your desktop, your model gateway.</p>
-<p>A macOS launcher and proxy with accurate context limits, request pacing, and streaming-safe retries.</p>
+<p>A macOS launcher connecting Claude Desktop to Ollama, with accurate context limits, request pacing and streaming-safe retries.</p>
 <p><sub>PYTHON · SHELL · REST APIS</sub></p>
 <p><a href="https://aaditya-v-more.github.io/claude-ollama/">Website & installation</a> · <a href="https://github.com/aaditya-v-more/claude-ollama">Source</a></p>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+</td></tr>
+<tr><td>
 <h3><a href="https://github.com/aaditya-v-more/worldquant-orchestrator">WorldQuant Orchestrator ↗</a></h3>
-<p>From a research question to a backtest.</p>
-<p>A Python CLI for data discovery, experiments and reviewable submission checks, with a SQLite audit trail.</p>
+<p>A Python CLI for data discovery, backtests and reviewable submission checks, with a SQLite audit trail.</p>
 <p><sub>PYTHON · SQLITE · AGENT WORKFLOWS</sub></p>
 <p><a href="https://github.com/aaditya-v-more/worldquant-orchestrator">Source & walkthrough</a></p>
-</td>
-<td width="50%" valign="top">
+</td></tr>
+<tr><td>
 <h3><a href="https://github.com/aaditya-v-more/devin-model-router">Devin Model Router ↗</a></h3>
-<p>A model choice for each message.</p>
 <p>Route Devin CLI messages by expected cost and reliability targets, within one continuous session.</p>
 <p><sub>PYTHON · LLMS · AGENT CLIENT PROTOCOL</sub></p>
 <p><a href="https://github.com/aaditya-v-more/devin-model-router">Source & design</a></p>
-</td>
-</tr>
+</td></tr>
 </table>
 
 <sub>DMR: co-built from an idea by Anil Maryala, with collaboration from Kartik S.</sub>
