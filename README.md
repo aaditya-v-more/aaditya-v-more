@@ -1,5 +1,7 @@
 <a href="https://aadityamore.com/">
   <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/profile-mobile-dark.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/profile-light.svg">
     <img alt="Aaditya More — software engineer. Python, Swift and TypeScript." src="./assets/profile-light.svg" width="100%">
@@ -21,7 +23,7 @@ I'm a **software engineer at Dell Technologies**, based in Bengaluru. Outside wo
 <tr>
 <td width="50%" valign="top">
 <h3><a href="https://github.com/aaditya-v-more/claude-graft">Claude Graft ↗</a></h3>
-<p>Several Claude accounts. One Mac.</p>
+<p>Several Claude Desktop accounts. One Mac.</p>
 <p>Separate profiles, shared Claude Code history, and live usage in your menu bar.</p>
 <p><sub>SWIFT · SWIFTUI · MACOS</sub></p>
 <p><a href="https://graft.aadityamore.com/">Website & installation</a> · <a href="https://github.com/aaditya-v-more/claude-graft">Source</a></p>
@@ -29,7 +31,7 @@ I'm a **software engineer at Dell Technologies**, based in Bengaluru. Outside wo
 <td width="50%" valign="top">
 <h3><a href="https://github.com/aaditya-v-more/claude-ollama">Claude × Ollama ↗</a></h3>
 <p>Your desktop, your model gateway.</p>
-<p>A launcher and proxy with accurate context limits, request pacing, and streaming-safe retries.</p>
+<p>A macOS launcher and proxy with accurate context limits, request pacing, and streaming-safe retries.</p>
 <p><sub>PYTHON · SHELL · REST APIS</sub></p>
 <p><a href="https://aaditya-v-more.github.io/claude-ollama/">Website & installation</a> · <a href="https://github.com/aaditya-v-more/claude-ollama">Source</a></p>
 </td>
