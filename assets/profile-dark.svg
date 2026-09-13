@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="270" viewBox="0 0 1040 270" role="img" aria-labelledby="title desc">
+  <title id="title">Aaditya More</title>
+  <desc id="desc">Software engineer. Python, Swift and TypeScript. An editorial banner with a small illustration of stacked application windows.</desc>
+  <rect width="1040" height="270" rx="18" fill="#131c2b"/>
+  <path d="M54 48h25" stroke="#ff8c6c" stroke-width="3"/>
+  <text x="94" y="53" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3" fill="#f0ede4">SOFTWARE ENGINEER</text>
+  <text x="49" y="155" font-family="Georgia, 'Times New Roman', serif" font-size="91" letter-spacing="-4" fill="#f0ede4">Aaditya <tspan fill="#ff8c6c">More.</tspan></text>
+  <path d="M54 192H665" stroke="#3b485b"/>
+  <text x="54" y="228" font-family="'Courier New', monospace" font-size="17" letter-spacing="1.1" fill="#f0ede4">PYTHON / SWIFT / TYPESCRIPT</text>
+  <g transform="rotate(7 887 107)">
+    <rect x="805" y="38" width="178" height="134" rx="12" fill="#1d293b" stroke="#3b485b"/>
+    <path d="M823 65h140" stroke="#3b485b"/>
+    <path d="M849 99h18m-9-9v18m40-9h2m15 12h2" fill="none" stroke="#ff8c6c" stroke-width="4" stroke-linecap="round"/>
+    <path d="M842 120q-13 22-10-7l3-22q2-12 15-12h56q12 0 15 12l4 22q4 28-10 7l-8-9h-58z" fill="none" stroke="#f0ede4" stroke-width="2"/>
+  </g>
+  <g transform="rotate(-7 861 152)">
+    <rect x="767" y="80" width="197" height="145" rx="12" fill="#131c2b" stroke="#3b485b"/>
+    <path d="M784 107h164M794 133h48m-48 14h64m-64 14h54" stroke="#3b485b" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x="721" y="126" width="235" height="119" rx="12" fill="#1d293b" stroke="#3b485b"/>
+  <path d="M722 157H955" stroke="#3b485b"/>
+  <circle cx="739" cy="142" r="3" fill="#ff8c6c"/>
+  <circle cx="752" cy="142" r="3" fill="#3b485b"/>
+  <circle cx="765" cy="142" r="3" fill="#3b485b"/>
+  <path d="m748 183 19 15-19 15m32 0h39" fill="none" stroke="#ff8c6c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M842 188h87m-87 12h65m-65 12h76" stroke="#3b485b" stroke-width="3" stroke-linecap="round"/>
+</svg>
