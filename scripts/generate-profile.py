@@ -8,6 +8,7 @@ from pathlib import Path
 from html import escape
 import math
 import sys
+from optimize_svg import optimize_svg
 
 ROOT = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(__file__).resolve().parents[1]
 OUT = ROOT / 'assets' / 'showcase'
@@ -66,7 +67,7 @@ def end(w, h):
     return '</g>' + rect(.5, .5, w-1, h-1, 'none', 24, P['line']) + '</svg>\n'
 
 def save(name, content):
-    (OUT / name).write_text(content)
+    (OUT / name).write_text(optimize_svg(content))
 
 def torus(cx, cy, scale=1):
     def project(u, v):
@@ -93,7 +94,7 @@ def torus(cx, cy, scale=1):
 
 def hero(mobile):
     w,h = (640,740) if mobile else (1040,490)
-    s = begin(w,h,'Aaditya More — software engineer. Developer tools, interactive learning and playable worlds.')
+    s = begin(w,h,'Aaditya More: software engineer. Developer tools, interactive learning and playable worlds.')
     s += circle(42,39,4,P['lime']) + text(55,44,'SOFTWARE ENGINEER',15,P['muted'],600,'mono', 'letter-spacing="2"')
     s += text(w-42,44,'AM / 01',14,P['muted'],400,'mono','text-anchor="end"')
     if mobile:
@@ -226,14 +227,14 @@ PROJECTS=[
  dict(id='ollama',title='Claude × Ollama',category='02 / DEVELOPER TOOLS',lines=['Your models.','Your workflow.'],desc='Claude Desktop, connected to Ollama.',stack='PYTHON  /  SHELL',accent='cyan',art=ollama_art),
  dict(id='wqo',title='WorldQuant Orchestrator',category='03 / RESEARCH AUTOMATION',lines=['From an idea','to a workflow.'],desc='Discover. Backtest. Review.',stack='PYTHON  /  SQLITE',accent='purple',art=wqo_art),
  dict(id='router',title='Devin Model Router',category='04 / MODEL ROUTING',lines=['One session.','The right route.'],desc='Route by expected cost and reliability.',stack='PYTHON  /  ACP',accent='lime',art=router_art),
- dict(id='play',title='Play — browser games by Aaditya More',category='SIDE QUEST / PLAY',lines=['Small worlds.','Big detours.'],desc='Strategy. Platforming. Endless running.',stack='OPEN A TAB. PLAY A LITTLE.',accent='orange',art=play_art),
- dict(id='learn',title='Learn — interactive textbook companions',category='DEEP DIVE / LEARN',lines=['Make the','theory click.'],desc='LLMs and deep learning, made interactive.',stack='READ  /  EXPERIMENT  /  UNDERSTAND',accent='cyan',art=learn_art),
+ dict(id='play',title='Play: browser games by Aaditya More',category='SIDE QUEST / PLAY',lines=['Small worlds.','Big detours.'],desc='Strategy. Platforming. Endless running.',stack='OPEN A TAB. PLAY A LITTLE.',accent='orange',art=play_art),
+ dict(id='learn',title='Learn: interactive textbook companions',category='DEEP DIVE / LEARN',lines=['Make the','theory click.'],desc='LLMs and deep learning, made interactive.',stack='READ  /  EXPERIMENT  /  UNDERSTAND',accent='cyan',art=learn_art),
 ]
 
 def project(p,mobile):
     w,h=(640,650) if mobile else (1040,342)
     c=P[p['accent']]
-    s=begin(w,h,p['title']+' — '+' '.join(p['lines']),p['accent'])
+    s=begin(w,h,p['title']+': '+' '.join(p['lines']),p['accent'])
     s+=text(34,43,p['category'],15,c,600,'mono', 'letter-spacing="1"')
     s+=arrow(w-60,25,c,20)
     if mobile:

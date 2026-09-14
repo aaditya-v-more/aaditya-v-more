@@ -5,7 +5,7 @@
     <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/showcase/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/showcase/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/showcase/hero-light.svg">
-    <img alt="Aaditya More — software engineer. Developer tools, interactive learning and playable worlds." src="./assets/showcase/hero-light.svg" width="100%">
+    <img alt="Aaditya More: software engineer. Developer tools, interactive learning and playable worlds." src="./assets/showcase/hero-light.svg" width="100%">
   </picture>
 </a>
 </p>
@@ -111,7 +111,7 @@ Route Devin CLI messages by expected cost and reliability targets, within **one 
 </p>
 
 
-**[The Emerald March](https://play.aadityamore.com/emerald-march/)** — build a kingdom. **[Mario, in first person](https://play.aadityamore.com/mario/)** — a different perspective. **[Relic Run](https://play.aadityamore.com/relic-run/)** — one more run.
+**[The Emerald March](https://play.aadityamore.com/emerald-march/)**: build a kingdom. **[Mario, in first person](https://play.aadityamore.com/mario/)**: a different perspective. **[Relic Run](https://play.aadityamore.com/relic-run/)**: one more run.
 
 **[Enter the arcade ↗](https://play.aadityamore.com/)**
 
