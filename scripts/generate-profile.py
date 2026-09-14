@@ -222,11 +222,29 @@ def learn_art():
     s+=text(191,279,'TOKENS → ATTENTION → UNDERSTANDING',12,P['muted'],600,'mono','text-anchor="middle"')
     return s
 
+def reddit_art():
+    s = window(0, 0, 386, 262, 'reddit.activity', P['orange'])
+    s += text(20, 57, 'SUBREDDIT ACTIVITY', 12, P['muted'], 600, 'mono')
+    for row, day in enumerate(['M', 'T', 'W', 'T', 'F', 'S', 'S']):
+        y = 75 + row * 21
+        s += text(20, y + 11, day, 11, P['muted'], 400, 'mono')
+        for col in range(12):
+            # Illustrative values only; this is artwork, not a measured dataset.
+            strength = [0.16, 0.27, 0.42, 0.64, 0.84][(row * 3 + col * 2 + col // 3) % 5]
+            s += rect(43 + col * 26, y, 20, 15, P['orange'], 3,
+                      extra=f'opacity="{strength}"')
+    s += text(20, 245, 'ILLUSTRATIVE HEATMAP', 11, P['muted'], 400, 'mono')
+    for i in range(5):
+        s += rect(279 + i * 15, 234, 11, 11, P['orange'], 2,
+                  extra=f'opacity="{0.2 + i * 0.2:.1f}"')
+    return s
+
 PROJECTS=[
  dict(id='graft',title='Claude Graft',category='01 / NATIVE MACOS',lines=['One Mac.','More Claude.'],desc='Separate accounts. Shared context.',stack='SWIFT  /  SWIFTUI',accent='orange',art=graft_art),
  dict(id='ollama',title='Claude × Ollama',category='02 / DEVELOPER TOOLS',lines=['Your models.','Your workflow.'],desc='Claude Desktop, connected to Ollama.',stack='PYTHON  /  SHELL',accent='cyan',art=ollama_art),
  dict(id='wqo',title='WorldQuant Orchestrator',category='03 / RESEARCH AUTOMATION',lines=['From an idea','to a workflow.'],desc='Discover. Backtest. Review.',stack='PYTHON  /  SQLITE',accent='purple',art=wqo_art),
  dict(id='router',title='Devin Model Router',category='04 / MODEL ROUTING',lines=['One session.','The right route.'],desc='Route by expected cost and reliability.',stack='PYTHON  /  ACP',accent='lime',art=router_art),
+ dict(id='reddit',title='Reddit Activity Lab',category='EXPERIMENT / ANALYTICS',lines=['Find patterns.','Test a hunch.'],desc='Subreddit activity, made explorable.',stack='JAVASCRIPT  /  PYTHON  /  SQLITE',accent='orange',art=reddit_art),
  dict(id='play',title='Play: browser games by Aaditya More',category='SIDE QUEST / PLAY',lines=['Small worlds.','Big detours.'],desc='Strategy. Platforming. Endless running.',stack='OPEN A TAB. PLAY A LITTLE.',accent='orange',art=play_art),
  dict(id='learn',title='Learn: interactive textbook companions',category='DEEP DIVE / LEARN',lines=['Make the','theory click.'],desc='LLMs and deep learning, made interactive.',stack='READ  /  EXPERIMENT  /  UNDERSTAND',accent='cyan',art=learn_art),
 ]

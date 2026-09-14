@@ -96,6 +96,28 @@ Route Devin CLI messages by expected cost and reliability targets, within **one 
 
 <sub>Co-built from an idea by Anil Maryala, with collaboration from Kartik S.</sub>
 
+## Experiments & analytics
+
+### [Reddit Activity Lab ↗](https://github.com/aaditya-v-more/reddit-activity-lab)
+
+<p>
+<a href="https://lab.aadityamore.com/reddit/">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/showcase/reddit-mobile-dark.svg">
+    <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/showcase/reddit-mobile-light.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/showcase/reddit-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/showcase/reddit-light.svg">
+    <img alt="Reddit Activity Lab: an illustrative heatmap of subreddit activity. Explore historical patterns and posting windows worth testing." src="./assets/showcase/reddit-light.svg" width="100%">
+  </picture>
+</a>
+</p>
+
+Explore historical subreddit activity with **timezone-aware heatmaps**, compare post outcomes, and find posting windows worth testing. Sample sizes and uncertainty stay visible. Built with **JavaScript, Web Workers, Python & SQLite**.
+
+**[Open the dashboard](https://lab.aadityamore.com/reddit/)** &nbsp; / &nbsp; [Source](https://github.com/aaditya-v-more/reddit-activity-lab) &nbsp; / &nbsp; [How it works](https://aadityamore.com/projects/reddit-activity-lab/)
+
+<sub>Uses historical records from Arctic Shift. Independent project, not affiliated with Reddit.</sub>
+
 ## Curiosity takes other forms
 
 <p>

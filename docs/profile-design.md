@@ -34,3 +34,12 @@ animation and reduced-motion behavior. Running the generator again should
 produce identical files. Do not trade visible quality for smaller files.
 Use periods, commas, colons or ordinary hyphens instead of em dashes in profile
 copy, artwork titles, documentation and commit messages.
+
+## Reddit Activity Lab
+
+The Experiments & analytics section links to the public dashboard at
+`https://lab.aadityamore.com/reddit/`, its source repository and portfolio details.
+Its four SVG variants add less than 48 KB in total; each visitor loads the
+appropriate single variant. The heatmap is explicitly labeled illustrative,
+not presented as live measurements. Keep Arctic Shift attribution and avoid
+promising that posting at a particular time guarantees better results.
