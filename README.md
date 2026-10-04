@@ -5,7 +5,7 @@
     <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/showcase/hero-mobile-light.svg">
     <source media="(prefers-color-scheme: dark)" srcset="./assets/showcase/hero-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/showcase/hero-light.svg">
-    <img alt="Aaditya More: software engineer. Developer tools, interactive learning and playable worlds." src="./assets/showcase/hero-light.svg" width="100%">
+    <img alt="Aaditya More: software engineer. Developer tools, applied AI and BIOS firmware." src="./assets/showcase/hero-light.svg" width="100%">
   </picture>
 </a>
 </p>
@@ -17,7 +17,27 @@
   <a href="https://aadityamore.com/resume/"><img src="./assets/showcase/button-resume.svg" alt="Read my résumé" width="132" height="44"></a>
 </p>
 
-I'm Aaditya, a **software engineer at Dell Technologies** in Bengaluru. I build native apps, tools for working with AI, and interactive things for the browser.
+I build software that helps engineers **develop, secure, and test complex systems**.
+
+I'm Aaditya, a **software engineer at Dell Technologies** in Bengaluru, working in core BIOS development. Outside work, I build AI developer tools, native macOS apps, interactive learning experiences, and browser games.
+
+## At Dell Technologies
+
+### Software Engineer 1 · July 2025–present
+
+I develop core BIOS firmware in **C and EDK2**, collaborating with ODM partners on a codebase that brings together Dell and silicon-vendor components.
+
+- **Common Solutions Delivery:** built scripts and agent skills from scratch to automate fix delivery across generations of **BIOS and embedded controller (EC) code**. Used by everyone in my team, with human review.
+- **Secure Development Lifecycle CLI:** developed a CLI that integrates existing security tools into a unified BIOS Secure Development Lifecycle workflow. Product owners and developers can trigger scans and obtain results, with **GitHub Actions** integration supporting EU **Cyber Resilience Act readiness**.
+- **End-to-end test case generation:** built the tools knowledge base from scratch as part of the team's broader workflow, spanning change-scope analysis, test case generation, and automatable test scripts where possible for execution on the IRT server.
+
+### Software Engineer Intern · February–July 2025
+
+- Built an **end-to-end new-hire onboarding prototype**: teams supply internal documentation such as Confluence and Jira, and the system creates onboarding training routines and provides a chatbot that answers questions from those sources.
+- Built Python prototypes for **BIOS setting recovery and variable tracing**, including rollback and caller mapping.
+- Implemented **compression and decompression algorithms in Python and C** to reduce the storage footprint of Dell logos in BIOS.
+
+[More about my work](https://aadityamore.com/about/) · [Résumé](https://aadityamore.com/resume/)
 
 ## Tools for the way I work
 
@@ -120,6 +140,8 @@ Explore historical subreddit activity with **timezone-aware heatmaps**, compare 
 
 ## Curiosity takes other forms
 
+**[Shape](https://studio.aadityamore.com/shape/)** is an interactive phone archive built with **React, TypeScript, Three.js, and Motion**, using simplified original 3D models. [Source](https://github.com/aaditya-v-more/iphone-transitions).
+
 <p>
 <a href="https://play.aadityamore.com/">
   <picture>
@@ -156,8 +178,10 @@ Explore historical subreddit activity with **timezone-aware heatmaps**, compare 
 
 ## Behind the projects
 
-**Python · Swift · TypeScript · Shell · SQL**<br>
-Native macOS apps · AI developer tools · APIs & automation · Interactive web experiences
+**Python · C · C++ · Swift · TypeScript · Shell · SQL**<br>
+Developer tools · BIOS firmware · Applied AI & retrieval · Native macOS apps · Interactive web experiences
+
+**Tools & frameworks:** EDK2 · GitHub Actions · REST APIs · SQLite · SwiftUI · React · Next.js · Three.js
 
 B.Tech in Computer Science & Engineering, specializing in **AI & ML** · VIT Bhopal University · **9.32 CGPA**.
 
